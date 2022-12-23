@@ -1,0 +1,56 @@
+.signin {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #050505;
+}
+
+.signin .rightSide {
+ width: 60%;
+ height: 100%;
+ background-color: #fff;
+}
+
+.signin .rightSide h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 10;
+  font-size: 50px ;
+  justify-content: center;
+}
+
+form {
+  display: block;
+  width: 100;
+  padding: 20px;
+}
+
+form input {
+  width: 80%;
+  border: none;
+  border-radius: 20px;
+  color: #000000;
+  background-color: #965858;
+  padding: 20px ;
+}
+
+form label {
+  font-size: 1.4rem;
+  font-weight: 700;
+
+  color: rgb(14, 1, 1);
+}
+
+form button {
+  margin-top: 40px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #121619;
+  color: #9D9D9D;
+  font-size: 15px;
+  cursor: pointer;
+}

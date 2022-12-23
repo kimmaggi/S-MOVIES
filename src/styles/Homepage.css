@@ -1,0 +1,65 @@
+.homepage {
+  width: 100%;
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.headerContainer {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.headerContainer button {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  background-color: #0a0709;
+  height: 50px;
+  width: 180px;
+  color: #965858;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 60px 0;
+  font-weight: 900;
+}
+
+.headerContainer button:hover {
+  background-color: #965858;
+  color: #07090a;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+@media only screen and (max-width: 650px) {
+  .homepage {
+    width: 100%;
+  }
+
+  .headerContainer h1 {
+    font-size: 40px;
+    height: 30px;
+    color: white;
+  }
+
+  .headerContainer p {
+    font-size: 30px;
+    color: white;
+  }
+
+  .headerContainer button {
+    background-color: #965858;
+    color: #121619;
+  }
+
+  .headerContainer button:hover {
+    background-color: rgb(225, 225, 225);
+    color: #121619;
+  }
+}
